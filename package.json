@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/m4tt72/terminal"
+    "url": "https://github.com/adtyap26/terminal-web"
   },
   "scripts": {
     "start": "next start",

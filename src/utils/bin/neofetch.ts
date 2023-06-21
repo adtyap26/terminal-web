@@ -44,27 +44,24 @@ llllllllllllll  lllllllllllllllllll
 `;
 
 const linux = `
-            .-/+oossssoo+/-.               
-        \`:+ssssssssssssssssss+:\`           
-      -+ssssssssssssssssssyyssss+-         
-    .ossssssssssssssssssdMMMNysssso.       
-   /ssssssssssshdmmNNmmyNMMMMhssssss/      
-  +ssssssssshmydMMMMMMMNddddyssssssss+     
- /sssssssshNMMMyhhyyyyhmNMMMNhssssssss/    
-.ssssssssdMMMNhsssssssssshNMMMdssssssss.   
-+sssshhhyNMMNyssssssssssssyNMMMysssssss+   
-ossyNMMMNyMMhsssssssssssssshmmmhssssssso   
-ossyNMMMNyMMhsssssssssssssshmmmhssssssso   
-+sssshhhyNMMNyssssssssssssyNMMMysssssss+   
-.ssssssssdMMMNhsssssssssshNMMMdssssssss.   
- /sssssssshNMMMyhhyyyyhdNMMMNhssssssss/    
-  +sssssssssdmydMMMMMMMMddddyssssssss+     
-   /ssssssssssshdmNNNNmyNMMMMhssssss/      
-    .ossssssssssssssssssdMMMNysssso.
-      -+sssssssssssssssssyyyssss+-
-        \`:+ssssssssssssssssss+:\`
-            .-/+oossssoo+/-.
-`;
+                  ##
+                 ####
+                ######
+               ########
+              ##########
+             ############
+            ##############
+           ################
+          ##################
+         ####################
+        ######################
+       #########      #########
+      ##########      ##########
+     ###########      ###########
+    ##########          ##########
+   #######                  #######
+  ####                          ####
+ ###                              ###`;
 
 const getPlatform = (): 'Unknown' | 'Windows' | 'MacOS' | 'Linux' => {
   let os: 'Unknown' | 'Windows' | 'MacOS' | 'Linux' = 'Unknown';
