@@ -8,7 +8,8 @@ networks:
 services:
   terminal:
     build: .
-    container_name: terminal
+    image: adtyap26/terminal
+    container_name: personal-web
     restart: unless-stopped
     ports:
       - 3000:3000
